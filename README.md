@@ -1,32 +1,29 @@
-# Zappar for AFrame
+# Zappar for A-Frame Examples
+This repository contains an AR example using the Zappar SDK for A-Frame.
 
-## Standalone Bootstrap Project
-
-In this project you'll find the following files that get you up and running with Zappar for A-Frame.
-
-- *index.html*: contains the basic structure of you page and any necessary HTML UI elements
-- *index.js*: contains the code the sets up your A-Frame scene and AR experience
-
-Head to the NPM package page for more information on how to build best-in-class AR experiences: [Zappar for A-Frame](https://www.npmjs.com/package/@zappar/zappar-aframe) (@zappar/zappar-aframe)
+For more information, check out the package page for [Zappar for A-Frame](https://www.npmjs.com/package/@zappar/zappar-aframe) (@zappar/zappar-aframe).
 
 ## Preview
-
+​
 Scan the QR code below using your native camera app or QR code reader to view the example:
 ​
 ![Preview QR Code"](preview-qr-code.png)
 
-### Local Preview and Testing
+## Prerequisites
 
-Due to browser restrictions surrounding use of the camera, you must use HTTPS to view or preview your site, even if doing so locally from your computer. If you're using `webpack`, consider using `webpack serve` which has an `https` option to enable this.
+To get started you'll want to print out the example target images, `example-tracking-image.png` and `BusinessCard.png`.
 
-Alternatively you can use the [ZapWorks command-line tool](https://www.npmjs.com/package/@zappar/zapworks-cli) to serve a folder over HTTPS for access on your local computer, like this:
 
-```shell
+## Trying the Examples
+
+Due to browser restrictions surrounding use of the camera, you must use HTTPS to access the HTML files, even if doing so locally from your computer. You can use the [ZapWorks command-line tool](https://www.npmjs.com/package/@zappar/zapworks-cli) to serve a folder over HTTPS for access on your local computer, like this:
+```
 zapworks serve .
 ```
 
 The command also lets you serve the folder for access by other devices on your local network, like this:
-
-```shell
+```
 zapworks serve . --lan
 ```
+
+Once this is running, open the link that's output on the console and tap the different HTML files to try the examples. If you'd like to try on a mobile device, ensure it's on the same local network as your computer, then visit the appropriate link in the console output.
